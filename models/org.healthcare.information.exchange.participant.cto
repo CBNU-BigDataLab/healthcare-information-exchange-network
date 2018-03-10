@@ -1,0 +1,26 @@
+/**
+ * Write your model definitions here
+ */
+
+namespace org.healthcare.information.exchange.network.participant
+
+participant Patient identified by idx {
+  o String idx
+  o String name
+  o String gender
+  o String email
+  o String dateOfBirth
+  o String address
+  o String telephone
+  o DateTime lastVisit
+}
+
+participant Doctor identified by name {
+  o String name
+  o String gender
+  o String email
+  o String dateOfBirth
+  o String address
+  o String telephone
+  --> Patient[] patients
+}

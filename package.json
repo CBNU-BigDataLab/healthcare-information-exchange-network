@@ -1,0 +1,22 @@
+{
+  "name": "healthcare-information-exchange-network",
+  "version": "0.0.4",
+  "description": "Healthcare Information Exchange Network",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "DARA PENHCHET",
+  "email": "darapenhchet@gmail.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "composer-admin": "latest",
+    "composer-client": "latest",
+    "composer-common": "latest",
+    "composer-connector-embedded": "latest",
+    "chai": "latest",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest"
+  }
+}

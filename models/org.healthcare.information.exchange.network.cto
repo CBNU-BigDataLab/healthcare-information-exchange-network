@@ -1,0 +1,11 @@
+/**
+ * Write your model definitions here
+ */
+
+namespace org.healthcare.information.exchange.network
+
+asset Treatment identified by idx {
+  o String idx
+  o String name
+  o DateTime createdDate
+}
